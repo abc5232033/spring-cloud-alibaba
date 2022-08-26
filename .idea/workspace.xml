@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45885054-f09f-4e2d-b644-f9c94b6a99b5" name="变更" comment="SpringCloudAlibaba" />
+    <list default="true" id="45885054-f09f-4e2d-b644-f9c94b6a99b5" name="变更" comment="SpringCloudAlibaba">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +33,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../develop/apache-maven-3.8.4" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../dev/apache-maven-3.8.6" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -45,11 +48,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "D:/xinm/IdeaProjects/spring-cloud-alibaba",
+    "last_opened_file_path": "D:/code/my-code/spring-cloud-alibaba/pom.xml",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RebelAgentSelection">
@@ -67,7 +70,12 @@
       <recent name="D:\xinm\IdeaProjects\spring-cloud-alibaba\nacos\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.NacosConfigApplication">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GatewayApplication">
     <configuration name="GatewayApplication" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,13 +136,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="应用程序.NacosApplication" />
-      <item itemvalue="应用程序.GatewayApplication" />
-      <item itemvalue="应用程序.StockApplication" />
-      <item itemvalue="应用程序.OpenFeignApplication" />
-      <item itemvalue="应用程序.NacosConfigApplication" />
-      <item itemvalue="应用程序.OrderApplication" />
+      <item itemvalue="Application.GatewayApplication" />
+      <item itemvalue="Application.NacosApplication" />
+      <item itemvalue="Application.NacosConfigApplication" />
+      <item itemvalue="Application.OpenFeignApplication" />
+      <item itemvalue="Application.OrderApplication" />
+      <item itemvalue="Application.StockApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
