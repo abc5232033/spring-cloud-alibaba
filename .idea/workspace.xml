@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45885054-f09f-4e2d-b644-f9c94b6a99b5" name="变更" comment="SpringCloudAlibaba">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="45885054-f09f-4e2d-b644-f9c94b6a99b5" name="变更" comment="gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "D:/code/my-code/spring-cloud-alibaba/pom.xml",
     "project.structure.last.edited": "模块",
@@ -172,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661507378923</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="清理target">
+      <created>1661523067738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661523067738</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gitignore">
+      <created>1661523324645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661523324645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +200,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SpringCloudAlibaba" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringCloudAlibaba" />
+    <MESSAGE value="清理target" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
