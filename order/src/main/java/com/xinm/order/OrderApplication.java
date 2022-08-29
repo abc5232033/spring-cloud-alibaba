@@ -3,6 +3,8 @@ package com.xinm.order;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 /**
  * @Author: xinm
@@ -10,6 +12,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Email: abc5232033@163.com
  */
 @Slf4j
+@EnableJpaAuditing
+@EnableFeignClients
 @SpringBootApplication
 public class OrderApplication {
     public static void main(String[] args) {

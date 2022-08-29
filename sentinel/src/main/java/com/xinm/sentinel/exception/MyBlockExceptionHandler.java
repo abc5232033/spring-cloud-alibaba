@@ -8,6 +8,7 @@ import com.alibaba.csp.sentinel.slots.block.flow.FlowException;
 import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowException;
 import com.alibaba.csp.sentinel.slots.system.SystemBlockException;
 import com.alibaba.fastjson.JSONObject;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 
@@ -21,12 +22,13 @@ import javax.servlet.http.HttpServletResponse;
  * @Date: 2022/08/29 11:09
  * @Email: abc5232033@163.com
  */
+@Slf4j
 @Component
 public class MyBlockExceptionHandler implements BlockExceptionHandler {
 
     @Override
     public void handle(HttpServletRequest request, HttpServletResponse response, BlockException e) throws Exception {
-        System.out.println("资源规则的详细信息：" + e.getRule());
+        log.info("资源规则的详细信息：" + e.getRule());
         JSONObject resultObj = new JSONObject();
         if (e instanceof FlowException) {
             resultObj.put("code", 100);

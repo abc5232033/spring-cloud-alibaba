@@ -112,7 +112,7 @@
     <!-- 4. 最终的策略 -->
     <!-- 4.1 开发环境：打印控制台 -->
     <springProfile name="dev">
-        <logger name="io.renren" level="debug"/>
+        <logger name="com.xinm" level="debug"/>
         <root level="info">
             <!--  <appender-ref ref="CONSOLE"/>-->
             <appender-ref ref="DEBUG_FILE"/>
@@ -125,7 +125,7 @@
     <springProfile name="test">
         <logger name="org.springframework.web" level="INFO"/>
         <logger name="org.springboot.sample" level="INFO"/>
-        <logger name="io.renren" level="INFO"/>
+        <logger name="com.xinm" level="INFO"/>
         <root level="info">
             <appender-ref ref="ERROR_FILE"/>
             <appender-ref ref="INFO_FILE"/>
@@ -136,7 +136,7 @@
     <springProfile name="prod">
         <logger name="org.springframework.web" level="INFO"/>
         <logger name="org.springboot.sample" level="INFO"/>
-        <logger name="io.renren" level="INFO"/>
+        <logger name="com.xinm" level="INFO"/>
         <root level="info">
             <appender-ref ref="ERROR_FILE"/>
             <appender-ref ref="INFO_FILE"/>
