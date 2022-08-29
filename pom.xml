@@ -12,6 +12,7 @@
         <module>openfeign</module>
         <module>nacos-config</module>
         <module>gateway</module>
+        <module>sentinel</module>
     </modules>
     <name>spring-cloud-alibaba</name>
     <url>http://maven.apache.org</url>
